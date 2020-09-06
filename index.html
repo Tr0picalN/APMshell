@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script>
+        window.onload = function() {
+            var con = document.getElementById("homepage");
+            con.style.display = 'none';
+        }
+
+        function info_check() {
+            if ("samuel" == document.info.name.value && "wjsansrk" == document.info.passwd.value) {
+                alert("Login Success");
+                var con = document.getElementById("homepage");
+            con.style.display = 'block';
+                var con = document.getElementById("loginpage");
+            con.style.display = 'none';
+            }
+            else if ("keiter" == document.info.name.value && "wjsansrk" == document.info.passwd.value) {
+                alert("Login Success");
+                var con = document.getElementById("homepage");
+            con.style.display = 'block';
+                var con = document.getElementById("loginpage");
+            con.style.display = 'none';
+            } else {
+                alert("Login Fail");
+            }
+        }
+
+    </script>
+</head>
+<style>
+    #main {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        background-color: antiquewhite
+    }
+
+    .title {
+        display: inline-block;
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    #menu {
+        position: fixed;
+        right: 10px;
+    }
+
+    #topdiv {
+        width: auto;
+        background-color: white;
+    }
+
+    #box1 {
+        width: auto;
+        height: 300px;
+        margin: 0 auto;
+        background-color: burlywood;
+        text-align: center;
+        line-height: 300px;
+    }
+
+    #box2 {
+        background-color: white;
+        margin: 20px;
+        height: 300px;
+    }
+
+    #box3 {
+        background-color: greenyellow;
+        margin: 20px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 24px;
+    }
+
+    .item {
+        width: 300px;
+        height: 300px;
+        background-color: whitesmoke;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        line-height: 300px;
+    }
+
+    .textitem {
+        width: 300px;
+        height: 300px;
+        background-color: whitesmoke;
+        display: inline-block;
+        margin-left: 150px;
+        text-align: center;
+        line-height: 300px;
+    }
+
+    #loginpage {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        width: 300px;
+        height: 160px;
+        margin-left: -150px;
+        margin-top: -80px;
+    }
+    .imgbox{
+        width: 700px;
+        height: 300px;
+        background-color: whitesmoke;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        line-height: 300px;
+    }
+
+</style>
+
+<body>
+    <div id="loginpage">
+        <hr>
+        <h3>Jeong_Yun's&nbsp; Blog</h3>
+        <form name="info">
+            UserID&nbsp;&nbsp;&nbsp;:&nbsp;
+            <input type="text" name="name" /><br><br>
+            PassWD&nbsp;:&nbsp;
+            <input type="password" name="passwd" /><br><br>
+        </form>
+
+        <button onclick="info_check();">Login</button>&nbsp;&nbsp;
+        <button>Reset</button>&nbsp;&nbsp;
+        <button onclick="alert('There is no sign-up function yet.');">adduser</button>
+        <br><br>
+        <hr>
+    </div>
+    <div id="homepage">
+        <div id="main">
+            <div id="topdiv">
+                <div id="cap" class="title">
+                    <span style=" font: italic bold 1.5em/1em Georgia, serif ; color: green;">JeongYun's life</span>
+                </div>
+                <div id="menu" class="title">
+                    Main &nbsp; Blog &nbsp; <a href="https://www.instagram.com/j.yoon_k/?fbclid=IwAR1-MOfMSG7hIfveZPoFGuSlcgW0cv7MHqjSZIlV4TNYbJio_6Dy1dh1d7g">SNS</a>
+                </div>
+            </div>
+            <div id="box1">
+                <span style=" font: italic bold 1.5em/1em Georgia, serif ; color: green;">Jeong Yun's Life</span>
+            </div>
+            <div id="box2">
+                <div class="item">
+                    <img class="imgbox" src="https://t1.daumcdn.net/cfile/tistory/2318D54C527DD54F11"/>
+                </div>
+                
+            </div>
+            <div id="box2">
+                <div class="item">
+                    photo area
+                </div>
+                Myname is KimJeongYun!
+            </div>
+            <div id="box2">
+                <div class="item">
+                    photo area
+                </div>
+                here is my photo area
+            </div>
+            <div id="box3">
+                <a href="https://www.instagram.com/j.yoon_k/?fbclid=IwAR1-MOfMSG7hIfveZPoFGuSlcgW0cv7MHqjSZIlV4TNYbJio_6Dy1dh1d7g">SNS</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
