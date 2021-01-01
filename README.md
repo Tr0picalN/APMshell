@@ -2,7 +2,7 @@
 
 2020-06-30
 
-## Framework used
+## Used
 
 APM ver.
 
@@ -16,22 +16,22 @@ Tr0picalN
 
 ## How to use
 
-¼³Ä¡ÈÄ QuotaÁØºñ¿Í NoInetYum ÁØºñ
+ì„¤ì¹˜í›„ Quotaì¤€ë¹„ì™€ NoInetYum ì¤€ë¹„
 
 httpd-2.4.43.tar.gz
 mysql-5.6.47.tar.gz
 php-5.5.17.tar.gz
-À§ÆÄÀÏµéÀ»
-/usr/local/src/ ¿¡ ¿Å±â°í
-¾ĞÃàÇ®±â
+ìœ„íŒŒì¼ë“¤ì„
+/usr/local/src/ ì— ì˜®ê¸°ê³ 
+ì••ì¶•í’€ê¸°
 
-APM ¼³Ä¡½ÇÇà & ftp¼³Ä¡ ½ÇÇà
-oneclick.sh ½ÇÇà
-±ÇÇÑ¿À·ù½Ã chmod 755·Î ±ÇÇÑÁÜ
-ÀÚµ¿À¸·Î ¼³Ä¡¿Ï·á
+APM ì„¤ì¹˜ì‹¤í–‰ & ftpì„¤ì¹˜ ì‹¤í–‰
+oneclick.sh ì‹¤í–‰
+ê¶Œí•œì˜¤ë¥˜ì‹œ chmod 755ë¡œ ê¶Œí•œì¤Œ
+ìë™ìœ¼ë¡œ ì„¤ì¹˜ì™„ë£Œ
 
-usr/local/apache/bin ¾È¿¡ µé¾î°¡ ./apachectl restart
+usr/local/apache/bin ì•ˆì— ë“¤ì–´ê°€ ./apachectl restart
 
-apache¼­¹ö ±¸µ¿ÈÄ localhost/phpinfo.php ·Î php¼³Ä¡ È®ÀÎ°¡´É
+apacheì„œë²„ êµ¬ë™í›„ localhost/phpinfo.php ë¡œ phpì„¤ì¹˜ í™•ì¸ê°€ëŠ¥
 
-/usr/local/mysql/bin ¾È¿¡¼­ ./mysql À¸·Î mysql ½ÇÇà
+/usr/local/mysql/bin ì•ˆì—ì„œ ./mysql ìœ¼ë¡œ mysql ì‹¤í–‰
